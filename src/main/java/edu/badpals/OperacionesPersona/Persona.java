@@ -1,4 +1,4 @@
-package edu.badpals;
+package edu.badpals.OperacionesPersona;
 
 import java.io.Serializable;
 
@@ -13,7 +13,8 @@ public class Persona implements Serializable {
         this.edad = edad;
     }
 
-    public Persona(){}
+    public Persona() {
+    }
 
     public String getNombre() {
         return nombre;
